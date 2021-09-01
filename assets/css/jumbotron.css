@@ -1,0 +1,15 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+canvas {
+  /* And see postBoot() in JS */
+  width: 90%;
+  height: 100%;
+  object-fit: contain;
+}
+img {
+  display: block;
+  max-width: 15%;
+  max-height: 50%;
+}
