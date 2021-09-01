@@ -4,9 +4,9 @@ body {
 }
 canvas {
   /* And see postBoot() in JS */
-  width:800px;
+  width:600px;
   height: 400px;
-  object-fit:cover;
+  object-fit:contain;
 }
 img {
   display: block;
