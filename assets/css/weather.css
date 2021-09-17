@@ -1,0 +1,33 @@
+.button2{
+    margin:0.5em;
+    border-radius: 50%;
+    border:none;
+    height:2.5em;
+    width:2.5em;
+    background:lightblue;
+}
+
+.description{
+    text-transform: capitalize;
+}
+
+input:focus{
+    outline: none;
+}
+.search-bar{
+    border-radius: 18px;
+    background:lightblue;
+    padding: 0.5em;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+    width: 85% ;
+}
+
+.flex{
+display: flex;
+align-items: center;
+}
+
+.weather.start{
+    visibility: hidden;
+}
